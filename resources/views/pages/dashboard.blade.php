@@ -20,22 +20,22 @@
             <div class="grid grid-cols-4 gap-6 mt-6">
                 <div class="bg-white shadow-lg rounded-xl p-5 border">
                     <p class="text-sm text-gray-500">Total Produk</p>
-                    <h2 class="text-3xl font-bold mt-2">128</h2>
+                    <h2 class="text-3xl font-bold mt-2"></h2>
                 </div>
 
                 <div class="bg-white shadow-lg rounded-xl p-5 border">
                     <p class="text-sm text-gray-500">Total User</p>
-                    <h2 class="text-3xl font-bold mt-2">54</h2>
+                    <h2 class="text-3xl font-bold mt-2"></h2>
                 </div>
 
                 <div class="bg-white shadow-lg rounded-xl p-5 border">
                     <p class="text-sm text-gray-500">Transaksi Hari Ini</p>
-                    <h2 class="text-3xl font-bold mt-2">23</h2>
+                    <h2 class="text-3xl font-bold mt-2"></h2>
                 </div>
 
                 <div class="bg-white shadow-lg rounded-xl p-5 border">
                     <p class="text-sm text-gray-500">Pendapatan</p>
-                    <h2 class="text-3xl font-bold mt-2">Rp 4.500.000</h2>
+                    <h2 class="text-3xl font-bold mt-2"></h2>
                 </div>
             </div>
 
@@ -51,10 +51,7 @@
                 <div class="bg-white shadow-lg rounded-xl p-6 border">
                     <h3 class="font-semibold mb-4">Aktivitas Terbaru</h3>
                     <ul class="space-y-3 text-sm">
-                        <li>✔️ User baru mendaftar</li>
-                        <li>✔️ Produk ditambahkan</li>
-                        <li>✔️ Transaksi berhasil</li>
-                        <li>✔️ Stok produk diperbarui</li>
+                        
                     </ul>
                 </div>
             </div>
@@ -73,7 +70,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="border-b">
+                        {{-- <tr class="border-b">
                             <td class="py-2">TRX001</td>
                             <td>Andi</td>
                             <td>Laptop</td>
@@ -93,7 +90,7 @@
                             <td>Keyboard</td>
                             <td>31 Mar 2026</td>
                             <td class="text-red-600 font-semibold">Batal</td>
-                        </tr>
+                        </tr> --}}
                     </tbody>
                 </table>
             </div>
