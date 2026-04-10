@@ -14,7 +14,9 @@
 <div class="flex flex-col bg-gray-100 ml-45">
     @include('components.sidebarMenu')
 </div>
-
+    <div>
+        @include('components.footer')
+    </div>
 </div>
 </body>
 </html>
