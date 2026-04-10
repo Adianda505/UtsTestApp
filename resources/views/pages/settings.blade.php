@@ -1,10 +1,7 @@
-@vite(['resources/css/app.css', 'resources/js/app.js'])
+@extends('layout.admin')
+@section('content')
 
 <div class="flex min-h-screen bg-gray-100">   
-
-    {{-- Sidebar --}}
-    @include('layout.admin')
-
     {{-- Content --}}
     <div class="flex-1 flex flex-col">
 
@@ -88,3 +85,4 @@
         </div>
     </div>
 </div>
+@endsection
